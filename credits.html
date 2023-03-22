@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />	<!-- for media queries -->
+	<title>Credits </title>
+	<link href="styling.css" rel="stylesheet">  <!-- linking css file -->
+</head>
+
+<body>
+	<div class="gridContainerAdmin">  <!-- creating grid layout container -->
+	
+		<header>
+			<img class="logo" src="final_logo.png" alt="Northumbria Toys Company Logo.">			<!-- Adding logo -->
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="Home.html">Home</a></li> 										<!-- Navigation Bar -->
+				<li><a href="viewtoys.php">View Toys</a></li>
+				<li><a href="adminpage.php">Admin</a></li>
+				<li><a class="current" href="credits.html">Credits</a></li>
+			</ul>
+		</nav>
+
+		<main>
+		
+		<div class="credits">
+			<!-- Information of author of website -->
+			<h1> Credits Page </h1>			
+			<p> Name: Abdullah Musleh </p>
+			<p> Student ID : w21006726 </p>
+			<p> Email: abdullah.musleh@mashrek.edu.jo </p>
+			<p> The northumbria toy company logo shown in the header was created by myself using Adobe Illustrator.</p>
+			<div>
+			<!-- Images used -->
+			<p> www.stickpng.com. (Lightning Mcqueen Front View transparent PNG - StickPNG. Available at: https://www.stickpng.com/img/cartoons/cars/lightning-mcqueen-front-view [Accessed 28 Mar. 2022]. </p>
+			<a href="https://www.stickpng.com/img/cartoons/cars/lightning-mcqueen-front-view">Lightning Mcqueen Image</a> </div>
+			<div>
+			<p> www.stickpng.com. (Toy Story transparent PNG – StickPNG. Available at: https://www.stickpng.com/img/objects/toys/toy-story [Accessed 28 Mar. 2022]. </p>
+			<a href="https://www.stickpng.com/img/objects/toys/toy-story">Toy Story Image</a> </div>
+			<div>
+			<p> www.stickpng.com.  Lego Witch transparent PNG - StickPNG. Available at: https://www.stickpng.com/img/objects/toys/lego-witch [Accessed 28 Mar. 2022]. </p>
+			<a href="https://www.stickpng.com/img/objects/toys/lego-witch">Lego Witch Image</a> </div>
+			<div>
+			<p>Ciment, S.  See inside the Toys R Us revival’s first new store, where sensors track kids as they play with toys before purchase. Business Insider. Available at: https://www.businessinsider.com/toys-r-us-new-store-nintendo-barbie-nerf-little-tikes-2019-11?r=US&IR=T [Accessed 28 Mar. 2022]. </p>
+			<a href="https://www.businessinsider.com/toys-r-us-new-store-nintendo-barbie-nerf-little-tikes-2019-11?r=US&IR=T">Inside Store Image 1</a> </div>
+			<div>
+			<p> Amazon. (n.d.). marvel Super Hero mashers Hulk w/Micro mashers. Available at: https://www.amazon.in/marvel-Super-Hero-mashers-Micro/dp/B01MREL9DD [Accessed 8 May 2022].</p>
+			<a href="https://www.amazon.in/marvel-Super-Hero-mashers-Micro/dp/B01MREL9DD">Marvel Toy</a> </div>
+		</div>
+		
+		<h1>Security Considerations </h1>
+		<div class="security">
+		<!-- Security considerations research -->
+		<p> There are several security considerations related to the Northumbria Toy Company website that need to be identified. First of all, Data confidentiality; where only specific people should be able to access specific information in the website such as only letting admins access the admin panel. Data integrity, where data should remain in the same way it has been set to, such as prices of toys not changing unless done through the database. Data availability, in which the access to the data should always be possible when it is required. Implementing a user system with different roles such as customer and administrator would help significantly, where only administrators should have access to the admin form with specific permissions. Also if this was to be implemented, then passwords stored in the database should be encrypted instead of storing plain text passwords. The company should also conduct vulnerability tests regularly to see if the website has any vulnerabilities that could be manipulated by people with malicious intent. Furthermore, a security expert company could be outsourced to monitor the website constantly and identify possible risks.</p>
+		<p> There are several methods that should be implemented to minimize potential security risks. To begin with, a secure web hosting company should be chosen to host the website on. Input validation and sanitization should be taken seriously where data should be validated on both the clients and servers side. SQL queries should also be paramterised to prevent SQL injection into the database used and cross site scripting (XSS). Additionally, encryption should be used throughout the entire system ie. Encrypting databases/specific rows or table in the database (at rest encryption) or to implement the HTTPS protocol (in transit encryption) since it ensures that content cannot be changed and edited in transit between the server and client.</p>
+
+		<div>
+		<!-- Sources used -->
+		<p>Bassi, K. (2021). 8 Simple Ways to Improve your Website Security. Common Places Interactive. Available at: https://www.commonplaces.com/blog/8-simple-ways-to-improve-your-website-security/ [Accessed 30 Apr. 2022]. </p>
+		<a href="https://www.commonplaces.com/blog/8-simple-ways-to-improve-your-website-security/">Refrence 1</a> </div>
+		
+		<div>
+		<p>Gerber, R., Compton, T. and Perry, T. (2018). 9 security tips to protect your website from hackers. Creative Bloq. Available at: https://www.creativebloq.com/web-design/website-security-tips-protect-your-site-7122853 [Accessed 30 Apr. 2022].</p>
+		<a href="https://www.creativebloq.com/web-design/website-security-tips-protect-your-site-7122853">Refrence 2</a> </div>
+		</div>
+		</main>
+		
+		<footer> 
+			<h2> Contact Us! </h2>
+			<p> Newcastle Store Location: NE1 7DF </p>
+			<p> Working Hours: 9AM - 5PM (Monday-Saturday) </p>
+			<p> Email: info@ntc.com </p>							<!-- Contact information for footer -->
+			<p> Telephone: 447470303303 </p>
+			<p> © Copyright 2022 Northumbria University.  </p>
+		</footer>
+
+		</div>
+</body>
+</html>
